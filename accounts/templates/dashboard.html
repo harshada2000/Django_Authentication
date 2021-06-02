@@ -1,0 +1,7 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <h1 class="p-3 m-3">Welcome {{user.username}} to Dashboard</h1>
+    <a class="btn btn-primary ml-5" href="{% url 'logout' %}">Logout</a>
+
+{% endblock %}
